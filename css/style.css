@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  align-items: center;
+}
+
+.title {
+  margin-right: auto;
+}
+
+.menu-item {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.relative {
+  position: relative;
+}
+
+.relative__img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+  margin: 100px 0px 0px 800px;
+}
+
+.absolute {
+  position: absolute;
+  top: 60%;
+  left: 0%;
+  font-size: 50px;
+}
+
+.box {
+  width: 1000px;
+  height: 200px;
+  margin: -20px;
+  background: blue;
+}
