@@ -21,22 +21,21 @@ header {
 }
 
 .relative__img {
-  margin: 0 0 0 auto;
+  margin: 100px 0 0 auto;
   display: block;
   width: 50%;
-  margin: 100px 0px 0px 800px;
 }
 
 .absolute {
-  position: absolute;
-  top: 60%;
+  position: fixed;
+  top: 33vw;
   left: 0%;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .box {
-  width: 1000px;
+  width: 70vw;
   height: 200px;
-  margin: -20px;
+  margin: -80px;
   background: blue;
 }
